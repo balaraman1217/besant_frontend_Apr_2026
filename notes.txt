@@ -1,0 +1,55 @@
+HTML - Hyper text markup language 
+
+Everything is based on tags, attributes, values 
+
+tags 
+
+
+
+<>  --> open tag
+ 
+
+</> --> closing tag
+
+<html>
+     <head>
+     </head>
+     <body>
+
+     <footer>
+     </footer>
+     </body>
+</html>
+
+
+tags
+
+Hyperlink - it is digital reference to the data where user can follow by clicking or taping the button or link - <>
+
+
+Text Formmating
+
+Group Together HTML 
+
+Why we are grouping - Styling purposes 
+
+Block level contianer - div - to group the elements for styling purposes
+
+Inline Container - span - to group the elements for styling purposes
+
+list 
+
+unordered list
+
+order list 
+
+button 
+
+forms
+
+Git and Github ---> Version Control Tool
+
+Git --> For local
+
+GitHub ---> For Internet (Comman data center to store our project or source code)
+
