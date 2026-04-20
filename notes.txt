@@ -53,3 +53,46 @@ Git --> For local
 
 GitHub ---> For Internet (Comman data center to store our project or source code)
 
+CSS ---> Cascading styling sheet 
+
+Inline Internal External 
+
+
+color - color name, rgb values, hexa decimal, hsl values 
+
+borders
+
+Shadows
+
+Margin - space arond the element 
+
+float --- allow other element to flow around it 
+
+Overflow ---> property that sets the desried behavior when content does not fit in the parent element box
+
+overflow:visible
+overflow:hidden
+overflow:clip
+overflow:scroll
+overflow:auto
+
+
+
+Display property 
+
+display = property specfies if/how an melement is didplayed 
+
+Block-level - start on a new line, take up to full width available(h1, div, p, form, header, footer)
+
+Inline - - do not start on a new line, width is limited to what is needed (span, a, img)
+
+height and width 
+
+
+Postions - 
+
+relative
+fixed
+absolute
+sticky
+static

@@ -1,0 +1,166 @@
+/* #p1 {
+    color: lawngreen;
+}
+
+#p2 {
+    color: red;
+}
+
+#p3 {
+    color: lightseagreen;
+}
+
+#p4 {
+    color: blueviolet;
+} 
+
+
+
+.odd {
+    color: red;
+}
+
+.even {
+    /* color: rgb(132, 132, 201);8
+ 
+} 
+
+
+
+#h1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+#p1 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+
+    font-size: 20px;
+    font-weight: bold;
+    font-style: italic;
+  
+}  
+
+#h1 {
+    /* border-style: solid;
+    border-style: dotted;  
+    border-style: dashed; 
+    border-style: groove; 
+    border-style: solid;
+    border-width: 10px;
+    border-color: red; 
+    border: 5px solid red;
+    border-radius: 8px;
+}
+
+#p1 {
+    border-bottom: 5px red solid;
+    border-top: 5px blue dotted;
+    border-left: 5px green double;
+    border-right: 5px paleturquoise dashed;
+}  
+
+#h1 {
+    text-shadow: 5px 5px 5px red, -5px -5px 5px lightgreen;
+}
+
+#div1 {
+    width: 100px;
+    height: 100px;
+    background-color: gray;
+    box-shadow: 4px 4px 5px red, -4px -4px 5px green;
+} 
+
+body {
+    margin: 0px;
+}
+
+.box {
+    border: 5px solid;
+    font-size: 5em;
+    width: 200px;
+    height: 200px;
+        margin: 50px;
+}
+
+#div1 {
+    background-color: lightcoral;
+    /* margin-top: 100px;
+    margin-bottom: 100px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+#div2 {
+    background-color: lightgreen;
+
+} 
+
+
+
+body {
+    border: 3px solid;
+  
+}
+
+#img1 {
+    float: left;
+    margin-right: 20px;
+}
+
+#img2 {
+    float: right;
+    mar
+
+#div1 {
+    border: 2px solid;
+    height: 50px;
+    /* overflow: visible; 
+    overflow: clip;
+    overflow-clip-margin: 50px; 
+
+    overflow: scroll;  
+    overflow: auto;
+
+} 
+
+#div1 {
+    background-color: red;
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+    visibility: hidden;
+}
+
+#span1 {
+    background-color: aqua;
+     width: 100px;
+    height: 100px;
+    display: inline-block;
+}  */
+
+
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    background-color: lightgray;
+    height: 100vh;
+}
+
+.box {
+    background-color: red;
+    border: 2px solid;
+    padding: 25px;
+   
+    height: auto;
+    width: 50%;
+    float: right;
+    text-align: center;
+     min-height: 70%;
+     
+    
+}
+
