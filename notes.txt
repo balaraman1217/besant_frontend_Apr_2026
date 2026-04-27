@@ -88,11 +88,15 @@ Inline - - do not start on a new line, width is limited to what is needed (span,
 
 height and width 
 
+Postions -
 
-Postions - 
+relative - positioned relative to where it normally is 
+fixed - positioned relative to the viewport
+absolute - psotioned reletive to nearest ancestor
+sticky - psotioned based on scroll postion 
+static - default position for an element 
 
-relative
-fixed
-absolute
-sticky
-static
+
+Grid System 
+
+Flexbox 
