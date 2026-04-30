@@ -100,3 +100,57 @@ static - default position for an element
 Grid System 
 
 Flexbox 
+
+Transform - css property lets us to rotate, scale, skew, or translate an element
+
+Animations 
+
+Javascript -----> It is programming + scrpting language
+
+
+
+
+Varaiables - container that stores the value.
+
+behaves as if it were the value it contains
+
+let var const 
+
+
+
+declartion 
+
+let a;  
+
+initialization or assignment 
+
+a = 10;
+
+
+let a = 10;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
