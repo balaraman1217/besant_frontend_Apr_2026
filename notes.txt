@@ -11,10 +11,16 @@ tags
 
 </> --> closing tag
 
+self closing 
+
 <html>
      <head>
+     
      </head>
      <body>
+
+     <header>
+     </header>
 
      <footer>
      </footer>
@@ -124,10 +130,19 @@ let a;
 
 initialization or assignment 
 
-a = 10;
-
-
 let a = 10;
+
+
+Arithemmtic Operators - operands(values, varaibles, etc) and Operators(+, -, /, %, *)
+
+11 = x * 5;
+
+
+// How to accept the user input
+
+1. Easy way - window prompt
+
+2. Professional way = HTML testbox
 
 
 
