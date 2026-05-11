@@ -145,6 +145,51 @@ Arithemmtic Operators - operands(values, varaibles, etc) and Operators(+, -, /, 
 2. Professional way = HTML testbox
 
 
+Type conversion - change the datatype of a value to another(strings, numbers, booleans) 
+
+
+Constant - variable that cant be changed 
+
+Conditional Statement 
+
+if Statement, if else Statement, nested statement 
+
+checked property
+
+
+Ternary operator - shortcut to if() and else() statements
+helps to assign a varibale baesd on a condition
+
+
+condition ? codIfTrue : codeIfFalse;
+
+
+switch - can be efficeient replacement to many eles if statements 
+
+
+string methods - allow you to manipulate ad work with text (strings)
+
+string slice - creating a substring from a portion of another string 
+
+string.slice(start, end)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
