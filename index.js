@@ -296,9 +296,65 @@ let students = 20;
 // console.log(lastChar);
 
 
+// const temp = -25;
+
+// if(temp > 0 && temp <= 30) {
+//     console.log("The weather is good");
+// } else {
+//     console.log("weather is bad");
+// }
+
+// if(temp <= 0 || temp >= 30) {
+//     console.log("The weather is bad");
+// } else {
+//     console.log("weather is good");
+// }
+
+// const isSunny = false; 
+
+// if(!isSunny) {
+//     console.log("It is cloudy ");
+// } else {
+//     console.log("It is suuny");
+// }
+
+// const PI = "3.14";
+
+// if(PI == 3.14) {
+//     console.log("That is PI");
+// } else {
+//     console.log("That is not PI");
+// }
+// "3.145678"
+// 
+// if(PI != 3.14) {
+//     console.log("That is PI");
+// } else {
+//     console.log("That is not PI");
+// }
 
 
+// if(PI !== "3.14") {
+//     console.log("That is PI"); // true
+// } else {
+//     console.log("That is not PI"); // false
+// }
 
+//   1step       2nd step   4th 
+
+//          i = 10    i >= 1
+// for(let i = 1;    i <= 10;     i--) {
+
+//     // 3rd step 
+//     console.log(i);
+        
+// }
+// for(let i = 10; i >= 1;     i--) {
+
+//     // 3rd step 
+//     console.log(i);
+        
+// }
 
 
 
