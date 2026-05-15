@@ -218,7 +218,29 @@ Task 2
 
 
 
+Functions - a section of reusable code, declare code once, use it whenever we want, call the function to execute the code.
 
+Input :- GANesh KumAR
+output:- Ganesh Kumar
+
+
+
+create a function which return the square root of the value
+
+input : 2
+output: 4
+
+
+write a function for find out area of cirlce 
+
+
+
+
+Variable scope - where a varaible is recogosined and accessible (local vs global)
+
+
+
+Array - variable like structure that can hold more that 1 value
 
 
 

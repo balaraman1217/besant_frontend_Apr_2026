@@ -357,6 +357,108 @@ let students = 20;
 // }
 
 
+// function happyBirthday(username, age) {
+// console.log("Happy birthday to you!!!");
+// console.log("Happy birthday to you!!!");
+// console.log(`Happy birthday dear ${username}`);
+// console.log("Happy birthday dear to you");
+// console.log(`you are ${age} years old`);
+
+// }
+
+// happyBirthday("Ganesh", 24);
+// happyBirthday("john", 22);
 
 
 
+// function add(x, y) {
+//    return x + y;
+// }
+// function sub(y, x) {
+//     let result = y - x;
+//     return result;
+// }
+
+// const addResult = add(1, 2);
+// const subResult = sub(10, 2);
+
+// console.log(add(1, 3));
+// console.log(subResult);
+
+// function isEven(number) {
+    // if(number % 2 === 0) {
+    //     return true;
+    // } else {
+    //     return false;
+    // }
+
+//     return number % 2 === 0 ? true : false;
+// }
+
+// console.log(isEven(11));
+
+
+
+// function isvaildEmail(email) {
+
+//     if(email.includes("@")) {
+//         return true;
+//     } else {
+//         return false;
+//     }
+
+// }
+
+
+// console.log(isvaildEmail("ganeshgamil.com"));
+
+// let x = 16;
+
+// function func1() {
+//     let x = 1;
+//     let y = 29;
+//     console.log(x);
+// }
+// function func2() {
+//     let x = 1;
+//     console.log(x);
+//     console.log(y);
+// }
+
+// func1();
+// func2();
+
+//               0         1        2         length = 3
+let fruits = ["apple", "banana", "orange"];
+
+// for(let i = 0; i < fruits.length; i++) {
+//     console.log(fruits[i]);
+// }
+// for(let i = fruits.length - 1; i >= 0; i--) {
+//     console.log(fruits[i]);
+// }
+
+fruits.sort().reverse();
+
+for(let fruit of fruits) {
+    console.log(fruit);
+}
+
+
+// fruits.push("coconut");
+// fruits.pop();
+
+// fruits.unshift("Mango");
+// fruits.shift();
+
+
+// let numOfFruits = fruits.length;
+// let index = fruits.indexOf("apple");
+// console.log(numOfFruits);
+// console.log(fruits);
+// console.log(index);
+
+
+// console.log(fruits[0]);
+// console.log(fruits[1]);
+// console.log(fruits[2]);
