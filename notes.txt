@@ -242,6 +242,17 @@ Variable scope - where a varaible is recogosined and accessible (local vs global
 
 Array - variable like structure that can hold more that 1 value
 
+Spread operator :-    ...
+
+allow an iteration such as a array or string to expanded  into seprate elements 
+
+unpacks the elements
+
+rest parameters - allow a function work with a vraiable number of argumenets by bundling them into an array 
+
+spread - exapad an array into speate element
+rest bundles seperate elements into an array
+
 
 
 

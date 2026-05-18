@@ -62,7 +62,7 @@ kjadfhudshfdsfuo
 
 // increment and decerement operators
 
-let students = 20;
+// let students = 20;
 // post increment
 // students++;
 // post decrement
@@ -428,8 +428,8 @@ let students = 20;
 // func1();
 // func2();
 
-//               0         1        2         length = 3
-let fruits = ["apple", "banana", "orange"];
+// //               0         1        2         length = 3
+// let fruits = ["apple", "banana", "orange"];
 
 // for(let i = 0; i < fruits.length; i++) {
 //     console.log(fruits[i]);
@@ -438,11 +438,11 @@ let fruits = ["apple", "banana", "orange"];
 //     console.log(fruits[i]);
 // }
 
-fruits.sort().reverse();
+// fruits.sort().reverse();
 
-for(let fruit of fruits) {
-    console.log(fruit);
-}
+// for(let fruit of fruits) {
+//     console.log(fruit);
+// }
 
 
 // fruits.push("coconut");
@@ -462,3 +462,45 @@ for(let fruit of fruits) {
 // console.log(fruits[0]);
 // console.log(fruits[1]);
 // console.log(fruits[2]);
+
+// let numbers = [1, 2 , 3, 4, 5, 6];
+ 
+// console.log(numbers);
+// console.log(...numbers);
+ 
+// let maximum = Math.max(...numbers);
+
+// console.log(maximum);
+
+
+// let username = "prakesh kumar";
+
+// console.log(username);
+// console.log(...username);
+
+// let fruits = ["apple", "orange", "banana"];
+
+// let veggies = ["onions", "carrrot", "potato"];
+
+// let foods = [...fruits, ...veggies, "egggs", "milk"];
+
+// console.log(fruits);
+// console.log(foods);
+
+// const food1 = "lemon rice";
+// const food2 = "veg rice";
+// const food3 = "chicken rice";
+// const food4 = "mushroom rice";
+
+
+// function getFood(...foods) {
+//     return foods;
+// }
+
+// function openFridge(...foods) {
+//    console.log(foods);
+// }
+
+// const foods = getFood(food1, food2, food3, food4);
+
+// console.log(foods);
