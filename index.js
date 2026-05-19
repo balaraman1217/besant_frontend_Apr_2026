@@ -504,3 +504,45 @@ kjadfhudshfdsfuo
 // const foods = getFood(food1, food2, food3, food4);
 
 // console.log(foods);
+
+
+// hello();
+// goodbye();
+
+
+// hello(wait);
+
+// function goodbye() {
+//     console.log("goodbye");
+// }
+
+// function leave() {
+//     console.log("Leave");
+// }
+
+// function wait() {
+//     console.log("Wait");
+
+// }
+
+// function hello(callback) {
+//     setTimeout(function() {
+//          console.log("Hello prakesh");
+//          callback();
+//     }, 4000)
+// }
+
+sum(displayWeb, 10, 10);
+
+function sum(callback, x, y){
+    let result = x + y;
+    callback(result);
+}
+
+function displayConsole(result) {
+      console.log(result);
+}
+
+function displayWeb(result) {
+    document.getElementById("myH1").textContent = result;
+}

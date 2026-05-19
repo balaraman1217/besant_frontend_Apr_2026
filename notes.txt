@@ -269,16 +269,28 @@ const students = {
 add new values in the array 
 [2,3,4] 
 
-[2,3,4,6,7,8,9,9,878,7]
+[2,3,4,6,7,8,9,9,8,7]
 
 
+Callbacks - function that is passed as an argumenets to another function;
 
+used to handle asynchrous operation 
 
+Reading the file 
+Network requests
+INteracting with databases 
 
+"Hey", when you are done, call the next 
 
+// 1. Define the callback function (the task to perform after calculation)
+// 2. Define the outer function (calculates the grade)
+ // Calculate percentage using LaTeX: $ percentage = (\frac{score}{totalScore}) \times 100 $
+   // Trigger the callback function, passing the student details
+   // 3. Execute the function and pass the callback as an argument
+   // Output: Hello John Doe! Your final grade for the course is A.
 
-
-
+   calculateGrade(45, 50, "John Doe", notifyStudent);
+// Output: Hello John Doe! Your final grade for the course is A.
 
 
 
