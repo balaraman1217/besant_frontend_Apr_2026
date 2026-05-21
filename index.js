@@ -532,17 +532,66 @@ kjadfhudshfdsfuo
 //     }, 4000)
 // }
 
-sum(displayWeb, 10, 10);
+// sum(displayWeb, 10, 10);
 
-function sum(callback, x, y){
-    let result = x + y;
-    callback(result);
+// function sum(callback, x, y){
+//     let result = x + y;
+//     callback(result);
+// }
+
+// function displayConsole(result) {
+//       console.log(result);
+// }
+
+// function displayWeb(result) {
+//     document.getElementById("myH1").textContent = result;
+// }
+//            0   1  2  3 4  5
+// let numbers = [1, 2, 3, 4, 5, 6];
+
+// // numbers.forEach(double);
+// numbers.forEach(square);
+// numbers.forEach(display);
+
+
+// function double(element, index, array) {
+//     array[index] = element * 2;
+// }
+// // cube
+
+// function square(element, index, array) {
+//     array[index] = Math.pow(element, 3);
+// }
+
+// // cubu root
+
+// function display(element) {
+//     console.log(element);
+// }
+
+
+
+let fruits = ["apple", "orange", "banana", "coconut"];
+
+// fruits.forEach(upperCase);
+fruits.forEach(capitalize);
+fruits.forEach(display);
+
+
+function upperCase(element, index, array) {
+  array[index] = element.toUpperCase();
 }
 
-function displayConsole(result) {
-      console.log(result);
+// lowercase
+
+
+function capitalize(element, index, array) {
+     array[index] = element.charAt(0).toUpperCase() + element.slice(1);
 }
 
-function displayWeb(result) {
-    document.getElementById("myH1").textContent = result;
+// lastLetterCapitalize 
+
+function display(element) {
+    console.log(element);
 }
+

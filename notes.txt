@@ -293,7 +293,23 @@ INteracting with databases
 // Output: Hello John Doe! Your final grade for the course is A.
 
 
+forEach() - method used to iterate over the element of an array and apply a sepicfed function(callback) to each element
 
+array.forEach(callback)
+// element, index, array are provided
+
+
+ Price Tag Formatter
+ 
+ Task: Use the optional index parameter to modify strings.Array: [10.99, 5.50, 20.00]
+ 
+ Goal: Log a message like "Item 1: $10.99" for each element.
+
+ URL Slug Generator (String Manipulation)
+
+ Task: Convert a list of blog titles into URL-friendly "slugs".Array: ['Learn JavaScript Fast', 'How to Use Loops', 'Array Methods Guide']
+ 
+ Goal: Create a new empty array. Use forEach to convert each title to lowercase and replace spaces with dashes (e.g., 'learn-javascript-fast'). Then push it to the new array.
 
 
 
