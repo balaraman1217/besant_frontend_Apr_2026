@@ -313,8 +313,15 @@ array.forEach(callback)
 
 
 
+Map()- accpets the callback and appilies that function to each element of an array, then return a new array.
 
 
+
+
+
+filter() - creates a new array by filtering out an elements 
+
+.reduce()- reduce the elements of an array to single value
 
 
 

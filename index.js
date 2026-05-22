@@ -571,27 +571,105 @@ kjadfhudshfdsfuo
 
 
 
-let fruits = ["apple", "orange", "banana", "coconut"];
+// let fruits = ["apple", "orange", "banana", "coconut"];
 
-// fruits.forEach(upperCase);
-fruits.forEach(capitalize);
-fruits.forEach(display);
+// // fruits.forEach(upperCase);
+// fruits.forEach(capitalize);
+// fruits.forEach(display);
 
 
-function upperCase(element, index, array) {
-  array[index] = element.toUpperCase();
-}
+// function upperCase(element, index, array) {
+//   array[index] = element.toUpperCase();
+// }
 
 // lowercase
 
 
-function capitalize(element, index, array) {
-     array[index] = element.charAt(0).toUpperCase() + element.slice(1);
-}
+// function capitalize(element, index, array) {
+//      array[index] = element.charAt(0).toUpperCase() + element.slice(1);
+// }
 
 // lastLetterCapitalize 
 
-function display(element) {
-    console.log(element);
-}
+// function display(element) {
+//     console.log(element);
+// }
 
+// const numbers = [1, 2, 3, 4, 5, 6];
+
+// const squares =  numbers.map(square);
+
+// console.log(squares);
+
+// function square(element) {
+//   return Math.pow(element, 2);
+// }
+
+// const students = ["jayaprakesh", "santhosh", "siva", "narendhra"];
+
+// const studentsUpper = students.map(upperCase);
+
+// console.log(studentsUpper);
+
+
+// function upperCase(element) {
+//   return element.toUpperCase();
+// }
+
+// const dates = ["2024-1-10", "2022-4-29"]
+
+// const formmatedDates = dates.map(formatDates);
+
+// console.log(formmatedDates);
+
+
+// function formatDates(element) {
+//     const parts = element.split("-");
+//     return `${parts[2]}/${parts[1]}/${parts[0]}`
+// }
+// const numbers = [1, 2, 3, 4, 5, 6];
+
+// let evenNums = numbers.filter(isEven);
+
+// console.log(evenNums);
+
+// function isEven(element) {
+//    return element % 2 === 0;
+// }
+
+// const ages = [16, 17, 18, 19, 20, 60];
+
+
+// const adults = ages.filter(isAdult);
+
+// console.log(adults);
+
+
+// function isAdult(element) {
+//     return element >= 18;
+// }
+
+// isChild
+
+// const words = ["apple", "orange", "promegrante", "coconut"];
+
+// const shortWords = words.filter(getShortWords);
+
+// console.log(shortWords);
+
+// function getShortWords(element) {
+//     return element.length <= 6;
+// }
+
+// long words
+
+// const prices = [5, 30, 10, 25, 15, 20];
+
+// const total = prices.reduce(sum);
+
+// console.log(`${total.toFixed(2)}`);
+
+// //             105     
+// function sum(pre, element) {
+//     return pre + element
+// };
