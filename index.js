@@ -3,10 +3,8 @@
 //console.log(`welcome to javascript world ${} students`);
 
 /*
-
 ds;lafj'l;sdl;asflkdsjfk
 djlfjkdaf
-
 
 kjadfhudshfdsfuo
 
@@ -673,3 +671,56 @@ kjadfhudshfdsfuo
 // function sum(pre, element) {
 //     return pre + element
 // };
+
+
+// Function declaration
+
+// function hello() {
+
+
+// }
+    
+// function expression
+
+// const hello = function() {
+//   console.log("Hello");
+// }
+
+// function hello() {
+//     console.log("Hello");
+// }
+
+// setTimeout(function(){
+//     console.log("hello");
+// },3000);
+
+// const numbers = [1, 2, 3, 4, 5, 6];
+
+// const squares = numbers.map(function(element) {
+//     return Math.pow(element, 2);
+// });
+
+
+// console.log(squares);
+
+// const hello = function(){
+//     console.log("Hello");
+// }
+
+// setTimeout(() => console.log("Hello"), 3000);
+
+
+
+
+// const hello = (name, age) => {console.log(`hello ${name}`) 
+//                      console.log(`my age is ${age}`)};
+
+// hello("ganesh", 24);
+
+
+
+const numbers = [1, 2, 3, 4, 5, 6];
+
+const squares = numbers.map((element) => Math.pow(element, 2));
+
+console.log(squares);

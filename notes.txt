@@ -311,17 +311,32 @@ array.forEach(callback)
  
  Goal: Create a new empty array. Use forEach to convert each title to lowercase and replace spaces with dashes (e.g., 'learn-javascript-fast'). Then push it to the new array.
 
-
+native
 
 Map()- accpets the callback and appilies that function to each element of an array, then return a new array.
-
-
-
 
 
 filter() - creates a new array by filtering out an elements 
 
 .reduce()- reduce the elements of an array to single value
+
+
+Function declartion - define a reusable block of code that perform a specifc task 
+
+
+function expression - a way to define function as values or varibales 
+
+// callbacks in asynchrous operations 
+// HOC - higher order funtions
+// closures
+// Event Listners 
+
+Arrow Functions - a concise way to write function expression good for simple functions that we are use only once 
+
+(parameter) => code 
+
+
+
 
 
 
