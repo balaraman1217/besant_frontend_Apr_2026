@@ -336,8 +336,29 @@ Arrow Functions - a concise way to write function expression good for simple fun
 (parameter) => code 
 
 
+OOPS -> Object oriented programming structure - collections of classes, properties, methods and objects 
+
+
+Object - a collection of related properties and/or mehtods can represent real world objects(people, products, places)
+
+object = {key: value, function()}
 
 
 
+class {
+properties, methods, objects
 
 
+}
+
+This - refrence to the object where THIS is used (the object depends on the imdeiate context)
+
+person.name = this.name;
+
+Constructor - special method for defining the properties and methods of objects 
+
+classes - (ES6 feature)- provides a more structure and cleaner way to work with objects comapred to traditional construtor functions.
+
+class - static, super 
+
+static keyword - keyword that defines properties or methods that belong only to a class itself rather than the objects created from that class (class owns anything static, not the obeject)

@@ -10,7 +10,6 @@ kjadfhudshfdsfuo
 
 */
 
-
 // // window.alert("Welcome to javascript world");
 
 // document.getElementById("myH1").textContent = `Hello welcome to js world`;
@@ -22,7 +21,6 @@ kjadfhudshfdsfuo
 
 // console.log(a + b);
 
-
 // let firatName = "ganesh";
 // let lastName = "kumar";
 // let email = "ganesh@gmail.com";
@@ -31,13 +29,9 @@ kjadfhudshfdsfuo
 // console.log(lastName);
 // console.log(email);
 
-
-
 // let online = false;
 
 // console.log(`ganesh is online: ${online}`);
-
-
 
 // let students = 30;
 
@@ -47,7 +41,6 @@ kjadfhudshfdsfuo
 // students = students / 2; // quatient
 // students = students ** 3;
 // students = students % 2; // remainder
-
 
 // agumanted assignment operator
 
@@ -73,19 +66,17 @@ kjadfhudshfdsfuo
 
 // --student;
 
-
-// operators prcedence 
+// operators prcedence
 
 // 1. paranthis ()
 // 2. exponents
 // 3. multipcation division & modulo
-// 4. addition and subration 
+// 4. addition and subration
 
 // let result = 1 % 6 + 8 / 2;
 // let result = 6 / 2 ** (2 + 5);
 
 // console.log(result);
-
 
 // let username = window.prompt("What is your username name?");
 // console.log(username);
@@ -97,7 +88,6 @@ kjadfhudshfdsfuo
 //    document.getElementById("myH1").textContent = `${username} welcome to javascript`;
 // }
 
-
 // let age = window.prompt("How old are you");
 // age = Number(age)
 // age += 1;
@@ -106,7 +96,6 @@ kjadfhudshfdsfuo
 // let x = "lemon";
 // let y = "lemon";
 // let z = "lemon";
-
 
 // let x = 12;
 // let y = 12;
@@ -120,7 +109,6 @@ kjadfhudshfdsfuo
 // y = String(y);
 // z = Boolean(z);
 
-
 // console.log(x, typeof x);
 // console.log(y, typeof y);
 // console.log(z, typeof z);
@@ -131,23 +119,19 @@ kjadfhudshfdsfuo
 
 // console.log(PI);
 
-
-
 // age = 10;
 // // false
 // if(age >= 18) {
 //    console.log("You cannot vote");
-// } 
-
+// }
 
 // age = 10;
-// // false 
+// // false
 // if(age >= 18) {
 //    console.log("You are senior");
 // } else {
 //    console.log("You are Junior");
-// } 
-
+// }
 
 // let mark = 90;
 
@@ -164,7 +148,6 @@ kjadfhudshfdsfuo
 //    console.log("Invaild mark");
 // }
 
-
 // const myCheckbox = document.getElementById("myCheckBox");
 // const visaBtn = document.getElementById("visaBtn");
 // const mastercardBtn = document.getElementById("mastercardBtn");
@@ -172,7 +155,6 @@ kjadfhudshfdsfuo
 // const mySubmit = document.getElementById("mySubmit");
 // const subResult = document.getElementById("subResult");
 // const paymentResult = document.getElementById("paymentResult");
-
 
 // mySubmit.onclick = function() {
 //    if(myCheckbox.checked) {
@@ -186,8 +168,6 @@ kjadfhudshfdsfuo
 //    }
 // }
 
-
-
 // let age = 20;
 
 // if(age >= 18) {
@@ -200,11 +180,9 @@ kjadfhudshfdsfuo
 
 // console.log(result);
 
-
 // let testScore = 96;
 
 // let Garade;
-
 
 // switch(true) {
 
@@ -222,21 +200,18 @@ kjadfhudshfdsfuo
 
 //    case testScore >= 60:
 //    Garade = "D";
-//    break;  
-   
+//    break;
+
 //    default:
 //       Garade = "F";
-
 
 // }
 
 // console.log(Garade);
 
-
-
 //12
 // 0 to n -1 = 0 to 11
-//             
+//
 // let username = "ganesh kumar ";
 
 // charAt()
@@ -252,11 +227,7 @@ kjadfhudshfdsfuo
 // let result = username.startsWith(" ");
 // let result = username.endsWith(" ");
 
-
-
-// 
-
-
+//
 
 // if(result) {
 //    console.log("Your username cant start with space");
@@ -264,11 +235,7 @@ kjadfhudshfdsfuo
 //    console.log(username);
 // }
 
-
-
 // console.log(res1, res2);
-
-
 
 // dinesh@gmail.com
 
@@ -280,8 +247,6 @@ kjadfhudshfdsfuo
 // let firstChar = fullName.slice(0,1)
 // let lastChar = fullName.slice(-1)
 
-
-
 // let firstName = fullName.slice(0, fullName.indexOf(" "));
 // let lastName = fullName.slice(fullName.indexOf(" ") + 1);
 
@@ -292,7 +257,6 @@ kjadfhudshfdsfuo
 // console.log(lastName);
 // console.log(firstChar);
 // console.log(lastChar);
-
 
 // const temp = -25;
 
@@ -308,7 +272,7 @@ kjadfhudshfdsfuo
 //     console.log("weather is good");
 // }
 
-// const isSunny = false; 
+// const isSunny = false;
 
 // if(!isSunny) {
 //     console.log("It is cloudy ");
@@ -324,13 +288,12 @@ kjadfhudshfdsfuo
 //     console.log("That is not PI");
 // }
 // "3.145678"
-// 
+//
 // if(PI != 3.14) {
 //     console.log("That is PI");
 // } else {
 //     console.log("That is not PI");
 // }
-
 
 // if(PI !== "3.14") {
 //     console.log("That is PI"); // true
@@ -338,22 +301,21 @@ kjadfhudshfdsfuo
 //     console.log("That is not PI"); // false
 // }
 
-//   1step       2nd step   4th 
+//   1step       2nd step   4th
 
 //          i = 10    i >= 1
 // for(let i = 1;    i <= 10;     i--) {
 
-//     // 3rd step 
+//     // 3rd step
 //     console.log(i);
-        
+
 // }
 // for(let i = 10; i >= 1;     i--) {
 
-//     // 3rd step 
+//     // 3rd step
 //     console.log(i);
-        
-// }
 
+// }
 
 // function happyBirthday(username, age) {
 // console.log("Happy birthday to you!!!");
@@ -366,8 +328,6 @@ kjadfhudshfdsfuo
 
 // happyBirthday("Ganesh", 24);
 // happyBirthday("john", 22);
-
-
 
 // function add(x, y) {
 //    return x + y;
@@ -384,18 +344,16 @@ kjadfhudshfdsfuo
 // console.log(subResult);
 
 // function isEven(number) {
-    // if(number % 2 === 0) {
-    //     return true;
-    // } else {
-    //     return false;
-    // }
+// if(number % 2 === 0) {
+//     return true;
+// } else {
+//     return false;
+// }
 
 //     return number % 2 === 0 ? true : false;
 // }
 
 // console.log(isEven(11));
-
-
 
 // function isvaildEmail(email) {
 
@@ -406,7 +364,6 @@ kjadfhudshfdsfuo
 //     }
 
 // }
-
 
 // console.log(isvaildEmail("ganeshgamil.com"));
 
@@ -442,13 +399,11 @@ kjadfhudshfdsfuo
 //     console.log(fruit);
 // }
 
-
 // fruits.push("coconut");
 // fruits.pop();
 
 // fruits.unshift("Mango");
 // fruits.shift();
-
 
 // let numOfFruits = fruits.length;
 // let index = fruits.indexOf("apple");
@@ -456,20 +411,18 @@ kjadfhudshfdsfuo
 // console.log(fruits);
 // console.log(index);
 
-
 // console.log(fruits[0]);
 // console.log(fruits[1]);
 // console.log(fruits[2]);
 
 // let numbers = [1, 2 , 3, 4, 5, 6];
- 
+
 // console.log(numbers);
 // console.log(...numbers);
- 
+
 // let maximum = Math.max(...numbers);
 
 // console.log(maximum);
-
 
 // let username = "prakesh kumar";
 
@@ -490,7 +443,6 @@ kjadfhudshfdsfuo
 // const food3 = "chicken rice";
 // const food4 = "mushroom rice";
 
-
 // function getFood(...foods) {
 //     return foods;
 // }
@@ -503,10 +455,8 @@ kjadfhudshfdsfuo
 
 // console.log(foods);
 
-
 // hello();
 // goodbye();
-
 
 // hello(wait);
 
@@ -551,7 +501,6 @@ kjadfhudshfdsfuo
 // numbers.forEach(square);
 // numbers.forEach(display);
 
-
 // function double(element, index, array) {
 //     array[index] = element * 2;
 // }
@@ -567,14 +516,11 @@ kjadfhudshfdsfuo
 //     console.log(element);
 // }
 
-
-
 // let fruits = ["apple", "orange", "banana", "coconut"];
 
 // // fruits.forEach(upperCase);
 // fruits.forEach(capitalize);
 // fruits.forEach(display);
-
 
 // function upperCase(element, index, array) {
 //   array[index] = element.toUpperCase();
@@ -582,12 +528,11 @@ kjadfhudshfdsfuo
 
 // lowercase
 
-
 // function capitalize(element, index, array) {
 //      array[index] = element.charAt(0).toUpperCase() + element.slice(1);
 // }
 
-// lastLetterCapitalize 
+// lastLetterCapitalize
 
 // function display(element) {
 //     console.log(element);
@@ -609,7 +554,6 @@ kjadfhudshfdsfuo
 
 // console.log(studentsUpper);
 
-
 // function upperCase(element) {
 //   return element.toUpperCase();
 // }
@@ -619,7 +563,6 @@ kjadfhudshfdsfuo
 // const formmatedDates = dates.map(formatDates);
 
 // console.log(formmatedDates);
-
 
 // function formatDates(element) {
 //     const parts = element.split("-");
@@ -637,11 +580,9 @@ kjadfhudshfdsfuo
 
 // const ages = [16, 17, 18, 19, 20, 60];
 
-
 // const adults = ages.filter(isAdult);
 
 // console.log(adults);
-
 
 // function isAdult(element) {
 //     return element >= 18;
@@ -667,19 +608,17 @@ kjadfhudshfdsfuo
 
 // console.log(`${total.toFixed(2)}`);
 
-// //             105     
+// //             105
 // function sum(pre, element) {
 //     return pre + element
 // };
-
 
 // Function declaration
 
 // function hello() {
 
-
 // }
-    
+
 // function expression
 
 // const hello = function() {
@@ -700,7 +639,6 @@ kjadfhudshfdsfuo
 //     return Math.pow(element, 2);
 // });
 
-
 // console.log(squares);
 
 // const hello = function(){
@@ -709,18 +647,123 @@ kjadfhudshfdsfuo
 
 // setTimeout(() => console.log("Hello"), 3000);
 
-
-
-
-// const hello = (name, age) => {console.log(`hello ${name}`) 
+// const hello = (name, age) => {console.log(`hello ${name}`)
 //                      console.log(`my age is ${age}`)};
 
 // hello("ganesh", 24);
 
+// const numbers = [1, 2, 3, 4, 5, 6];
+
+// const squares = numbers.map((element) => Math.pow(element, 2));
+
+// console.log(squares);
+
+// const person1 = {
+
+//       firstName: "Ganesh",
+//       lastName: "Kuamr",
+//       age: 28,
+//       isEmployed: true,
+
+//       sayHello: ()=> {console.log("Hai i am ganesh");}
+
+// }
+
+// const person2 = {
+
+//       firstName: "Mohamaned",
+//       lastName: "Aslam",
+//       age: 24,
+//       isEmployed: false,
+//       sayHello:() => {console.log("Hai i am aslam");},
+//       eat: () => console.log("hai i am eating lemom rice")
+
+// }
+
+// . dot operator
+// console.log(person1.firstName);
+// console.log(person1.lastName);
+// console.log(person1.age);
+// console.log(person1.isEmployed);
+// person1.sayHello();
+// person2.eat();
+
+// console.log(person2.firstName);
+// console.log(person2.lastName);
+// console.log(person2.age);
+// console.log(person2.isEmployed);
+// person2.sayHello();
+
+// const person1 = {
+//   name: "ganesh",
+//   favFood: "egg rice",
+//   sayHello: function () {
+//     console.log(`hi i am a ${this.name}`);
+//   },
+//   eat: function () {
+//     console.log(`${this.name} is eating ${this.favFood}`);
+//   },
+// };
+// const person2 = {
+//   name: "aslam",
+//   favFood: "sambar",
+//   sayHello: () => {
+//     console.log(`hi i am a ${this.name}`);
+//   },
+//   eat: () => {
+//     console.log(`${this.name} is eating ${this.favFood}`);
+//   },
+// };
+
+// person1.eat();
+// person2.eat();
+
+// function Car(make, model, year, color) {
+//     this.make = make,
+//     this.model = model,
+//     this.year = year,
+//     this.color = color
+//     this.drive = function(){console.log(`you drive ${this.model}`)}
+// }
+
+// const car1 = new Car("tata", "nexon", 2022, "red");
+// const car2 = new Car("maruthi", "swift", 2026, "black");
+
+// console.log(car1);
+// console.log(car2);
+// car1.drive();
+// car2.drive();
+
+class Product {
+    constructor(name, price) {
+        this.name = name;
+        this.price = price;
+    }
+
+    displayProduct() {
+        console.log(`Product: ${this.name}`);
+        console.log(`Price: ${this.price.toFixed(2)}`);
+    }
+
+    calculateTotal(salesTax) {
+        return this.price +  (this.price * salesTax);
+    }
+}
+
+const salestax = 0.05;
+
+const product1 = new Product("Iphone13", 50000);
+const product2 = new Product("Tshirt", 500);
+const product3 = new Product("Earphone", 50);
+const product4 = new Product("mouse", 150);
+
+product1.displayProduct();
+
+const total = product1.calculateTotal(salestax);
+
+console.log(total.toFixed(2));
 
 
-const numbers = [1, 2, 3, 4, 5, 6];
-
-const squares = numbers.map((element) => Math.pow(element, 2));
-
-console.log(squares);
+product2.displayProduct();
+product3.displayProduct();
+product4.displayProduct();
