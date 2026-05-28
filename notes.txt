@@ -362,3 +362,17 @@ classes - (ES6 feature)- provides a more structure and cleaner way to work with 
 class - static, super 
 
 static keyword - keyword that defines properties or methods that belong only to a class itself rather than the objects created from that class (class owns anything static, not the obeject)
+
+
+Inheritance - allow a new class to inherit properties and methods from exiting class (parent -> child)
+
+
+help with code reusablity
+
+
+
+super - keyword is used in classes to call the constructor or access the properties and method of a parent (superclass)
+
+this - this object
+
+super = the parent

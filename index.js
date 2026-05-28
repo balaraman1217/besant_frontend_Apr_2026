@@ -734,36 +734,161 @@ kjadfhudshfdsfuo
 // car1.drive();
 // car2.drive();
 
-class Product {
-    constructor(name, price) {
-        this.name = name;
-        this.price = price;
+// class Product {
+//     constructor(name, price) {
+//         this.name = name;
+//         this.price = price;
+//     }
+
+//     displayProduct() {
+//         console.log(`Product: ${this.name}`);
+//         console.log(`Price: ${this.price.toFixed(2)}`);
+//     }
+
+//     calculateTotal(salesTax) {
+//         return this.price +  (this.price * salesTax);
+//     }
+// }
+
+// const salestax = 0.05;
+
+// const product1 = new Product("Iphone13", 50000);
+// const product2 = new Product("Tshirt", 500);
+// const product3 = new Product("Earphone", 50);
+// const product4 = new Product("mouse", 150);
+
+// product1.displayProduct();
+
+// const total = product1.calculateTotal(salestax);
+
+// console.log(total.toFixed(2));
+
+
+// product2.displayProduct();
+// product3.displayProduct();
+// product4.displayProduct();
+
+
+// class MathUtil{
+//      static PI = 3.14159;
+     
+//      static getDiameter(radius) {
+//         return radius * 2;
+//      }
+
+// }
+
+
+
+// console.log(MathUtil.PI);
+// console.log(MathUtil.getDiameter(10));
+
+// class Animal {
+//     alive = true;
+
+//     eat() {
+//         console.log(`This ${this.name} is eating`);
+//     }
+
+//     sleep() {
+//         console.log(`This ${this.name} is sleeping`);
+//     }
+// }
+
+// class Tiger extends Animal {
+//     name = "Tiger";
+
+//     run() {
+//         console.log(`This ${this.name} is running`);
+//     }
+// }
+
+// class Fish extends Animal {
+//     name = "Fish"
+
+//     swim() {
+//          console.log(`This ${this.name} is swining`);
+//     }
+// }
+
+// class Eagle extends Animal {
+//     name = "Eagle";
+
+//     fly() {
+//          console.log(`This ${this.name} is flying`);
+//     }
+// }
+
+// const tiger = new Tiger();
+// const fish = new Fish();
+// const eagle = new Eagle();
+
+// tiger.eat();
+// tiger.sleep();
+// tiger.run();
+
+// fish.swim();
+
+
+class Animal {
+  
+    constructor(name, age) {
+       this.name = name;   
+       this.age = age; 
     }
 
-    displayProduct() {
-        console.log(`Product: ${this.name}`);
-        console.log(`Price: ${this.price.toFixed(2)}`);
+    move(speed) {
+        console.log(`the ${this.name} moves at speed of ${speed}kmh`);
     }
 
-    calculateTotal(salesTax) {
-        return this.price +  (this.price * salesTax);
+}
+
+class Tiger extends Animal {
+     constructor(name, age, runSpeed) {
+        super(name, age);
+       this.runSpeed = runSpeed;   
+    }
+
+    run() {
+        console.log(`This ${this.name} can run`);
+        super.move(this.runSpeed);
     }
 }
 
-const salestax = 0.05;
+class Fish extends Animal {
+    constructor(name, age, swimSpeed) {
+         super(name, age); 
+       this.swimSpeed = swimSpeed;
+        
+    }
 
-const product1 = new Product("Iphone13", 50000);
-const product2 = new Product("Tshirt", 500);
-const product3 = new Product("Earphone", 50);
-const product4 = new Product("mouse", 150);
+    swim() {
+        console.log(`This ${this.name} can swim`);
+        super.move(this.swimSpeed);
+    }
+}
 
-product1.displayProduct();
+class Eagle extends Animal {
+     constructor(name, age, flySpeed) {
+         super(name, age); 
+       this.flySpeed = flySpeed;
+        
+    }
+    fly() {
+        console.log(`This ${this.name} can fly`);
+        super.move(this.flySpeed);
+    }
 
-const total = product1.calculateTotal(salestax);
-
-console.log(total.toFixed(2));
+}
 
 
-product2.displayProduct();
-product3.displayProduct();
-product4.displayProduct();
+const tiger = new Tiger("tiger", 2, 30)
+const fish = new Fish("fish", 3, 20)
+const eagle = new Eagle("eagle", 4, 35)
+
+console.log(tiger.name);
+console.log(tiger.age);
+console.log(tiger.runSpeed);
+
+tiger.run();
+fish.swim();
