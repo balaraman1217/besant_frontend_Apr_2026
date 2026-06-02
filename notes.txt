@@ -369,10 +369,26 @@ Inheritance - allow a new class to inherit properties and methods from exiting c
 
 help with code reusablity
 
-
-
 super - keyword is used in classes to call the constructor or access the properties and method of a parent (superclass)
 
 this - this object
 
 super = the parent
+
+
+getter and setters
+
+getters - special method that makes a property readable
+setters - special method that makes a property writable
+
+validate and modifiy a value when reading/writing a property 
+
+
+Advanced javascript 
+
+Destructuring 
+
+
+
+
+
