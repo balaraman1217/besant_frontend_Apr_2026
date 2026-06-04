@@ -939,63 +939,135 @@ kjadfhudshfdsfuo
 // console.log(rectangle.area);
 
 
-class Person{
-    constructor(firstName, lastName, age) {
-        this.firstName = firstName;
-        this.lastName = lastName;
-        this.age = age;
-    }
+// class Person{
+//     constructor(firstName, lastName, age) {
+//         this.firstName = firstName;
+//         this.lastName = lastName;
+//         this.age = age;
+//     }
     
-    set firstName(newFirstName) {
-        if(typeof newFirstName === "string" && newFirstName.length > 0) {
-            this._firstName = newFirstName;
-        } else {
-            console.error("first name must be non empty string");
-        }
-    }
-    set lastName(newLastName) {
-        if(typeof newLastName === "string" && newLastName.length > 0) {
-            this._lastName = newLastName;
-        } else {
-            console.error("last name must be non empty string");
-        }
-    }
+//     set firstName(newFirstName) {
+//         if(typeof newFirstName === "string" && newFirstName.length > 0) {
+//             this._firstName = newFirstName;
+//         } else {
+//             console.error("first name must be non empty string");
+//         }
+//     }
+//     set lastName(newLastName) {
+//         if(typeof newLastName === "string" && newLastName.length > 0) {
+//             this._lastName = newLastName;
+//         } else {
+//             console.error("last name must be non empty string");
+//         }
+//     }
 
-     set age(newAge) {
-        if(typeof newAge === "number" && newAge >= 0) {
-            this._age = newAge;
-        } else {
-            console.log("age must be non negative number");
-        }
-     }
+//      set age(newAge) {
+//         if(typeof newAge === "number" && newAge >= 0) {
+//             this._age = newAge;
+//         } else {
+//             console.log("age must be non negative number");
+//         }
+//      }
 
-      get firstName() {
-        return this._firstName;
-      }
-      get lastName() {
-        return this._lastName;
-      }
-      get fullName() {
-        return this._firstName + " " + this._lastName;
-      }
+//       get firstName() {
+//         return this._firstName;
+//       }
+//       get lastName() {
+//         return this._lastName;
+//       }
+//       get fullName() {
+//         return this._firstName + " " + this._lastName;
+//       }
 
-       get age() {
-        return this._age;
-       }
+//        get age() {
+//         return this._age;
+//        }
 
-}
+// }
 
-const person = new Person("ganesh", "kumar", 22);
-
-
-
-console.log(person.firstName);
-console.log(person.lastName);
-console.log(person.fullName);
-console.log(person.age);
+// const person = new Person("ganesh", "kumar", 22);
 
 
 
+// console.log(person.firstName);
+// console.log(person.lastName);
+// console.log(person.fullName);
+// console.log(person.age);
+
+// let a = 1;
+// let b = 2;
+
+// console.log(a, b);
+
+// [a, b] = [b, a];
+
+// console.log(a, b);
+
+// swap 2 elemets in an arrya
+
+// const colors = ["red", "green", "blue", "white"];
+
+// [colors[0], colors[3]] = [colors[3], colors[0]];
+
+// console.log(colors);
+
+// assign array elements to the varaibels
+
+// const [firstColor, secondColor, thirdColor, ...extraColors] = colors;
+
+// console.log(firstColor);
+// console.log(secondColor);
+// console.log(thirdColor);
+// console.log(extraColors);
+
+
+// extarct the values from object
+
+
+// const person1 = {
+//     firstName: "ganesh",
+//     lastName: "kumar",
+//     age: 20,
+   
+// }
+// const person2 = {
+//     firstName: "aslam",
+//     lastName: "mahamed",
+//     age: 22,
+//     job: "Cook",
+// }
+
+
+
+// const { firstName, lastName, age, job="unemepleoyed" } = person1;
+
+
+// console.log(firstName);
+// console.log(job);
+
+
+
+// const person1 = {
+//     firstName: "ganesh",
+//     lastName: "kumar",
+//     age: 20,
+   
+// }
+// const person2 = {
+//     firstName: "aslam",
+//     lastName: "mahamed",
+//     age: 22,
+//     job: "Cook",
+// }
+
+// function displayPerson({firstName, lastName, age, job}) {
+//     console.log(firstName, );
+    
+// }
+
+
+
+// displayPerson(person1)
 
 
 
@@ -1003,9 +1075,131 @@ console.log(person.age);
 
 
 
+// const person = {
+//     fullName: "Mohamed aslam",
+//     age: 20,
+//     isStudent: true,
+//     hobbies: ["singing", "fishing", "cooking"],
+//     address: {
+//         street: "10, kamraj st",
+//         city: "chennai",
+//         country: "india"
+//     }
+// }
+
+// console.log(person.fullName);
+// console.log(person.age);
+// console.log(person.isStudent);
+// console.log(person.hobbies[0]);
+// console.log(person.address.city);
+// console.log(person.address.country);
+
+
+// for(const property in person.address) {
+//     console.log(person.address[property]);
+// }
+
+
+// class Person {
+
+//     constructor(name, age, ...address) {
+//       this.name = name;
+//       this.age = age;
+//       this.address = new Address(...address);
+//     }
+// }
+
+// class Address {
+//     constructor(street, city, country) {
+//         this.street = street;
+//         this.city = city;
+//         this.country = country;
+//     }
+// }
+
+
+
+
+// const person1 = new Person("aslam", 20, "10 nehru st", 
+//                                         "chennai",
+//                                         "india");
+// const person2 = new Person("mahamed", 22, "12 gandhi st", 
+//                                         "chennai",
+//                                         "india");
+// const person3 = new Person("kishore", 21, "101 kamaraj st", 
+//                                         "chennai",
+//                                         "india");
 
 
 
 
 
+// console.log(person1.address.street);
+                                        
 
+const fruits = [
+         {name: "orange", color: "yellow", calories: 95},
+         {name: "apple", color: "red", calories: 100},
+         {name: "coconut", color: "white", calories: 101},
+         {name: "pineapple", color: "yellow", calories: 120},
+
+]
+
+
+// fruits.forEach(fruit => console.log(fruit.calories));
+
+// const fruitName = fruits.map(fruit => fruit.name);
+
+// const yellowFruits = fruits.filter(fruit => fruit.color === "yellow");
+
+// console.log(yellowFruits);
+
+
+// const maxFruit = fruits.reduce((max, fruit) => fruit.calories > max.calories ?  fruit : max);
+
+// console.log(maxFruit.calories);
+
+
+// fruits.push({name: "grapes", color: "purple", calories: 102})
+// fruits.splice(1, 2);
+// console.log(fruits);
+
+
+// function outer() {
+
+//     let message = 'hello';
+
+
+//     function inner() {
+//        console.log(message);
+//     }
+
+//     inner();
+// }
+
+// message = "goobye";
+
+// outer();
+
+// function createCounter() {
+    
+// let count = 0;
+
+// function increment() {
+    
+//     count++;
+//     console.log(`Count increased to ${count} `);
+// }
+
+// //           
+//    return {increment};  
+
+// }
+
+// //                      3
+// const counter = createCounter();
+
+// counter.increment();
+// counter.increment();
+// counter.increment();
+// counter.increment();

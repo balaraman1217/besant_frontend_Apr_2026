@@ -386,7 +386,95 @@ validate and modifiy a value when reading/writing a property
 
 Advanced javascript 
 
-Destructuring 
+Destructuring - extract values from arrays and objects then assign them to variables in a convenient way
+
+[] = to perform array destructing
+
+{} = to perform object destructing
+
+
+Nested Objects - Objects inside another objects 
+
+allow us to represent more complex data structures 
+
+child object is enclosed with a parent object 
+
+Person{ address{}, ContactInfo{} }
+
+Shopping{Keyboard{}, Mouse{}, Monitor{}}
+
+
+Array of objects 
+
+Closures - a function defined inside the another function, the inner function has access to the variables and scope of the outer function 
+
+allow for private variables and state maintenace 
+
+used frequntly in js framework : react, vue, angular 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Seller_Module_Streaming
+
+
+Agile Methodlogy
+
+Sprint Duration -> 1 sprint = 2weeks 
+
+2 task - 1 sprint we need to finish
+
+- User Story
+   - Sub task
+          10task
+     
+
+Entertianer_Module_Streaming
+
+- User story 
+   - SUb task
+           10task
+
+
+Day to day meeting in a sprint 
+morning 15min - TL, CEO, BA
+evening 15min - TL, CEO, BA
+
+Sprint Meeting - CEO, Business analyst, UI desigers, Unit testers, DEVS, Stakeholders
+
+Project and task management tool --> clickup
+
 
 
 
