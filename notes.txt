@@ -412,7 +412,22 @@ allow for private variables and state maintenace
 
 used frequntly in js framework : react, vue, angular 
 
+setTimeout() ---> function in javascript tha allaows us to shedule the executuion of a function after an amount of the time 
 
+
+setTimeout(callback, delay)
+
+Synchronous - Execute line by line consecutively in a sequential manner 
+
+- code that waits for an operation to complete
+
+Asynchronous - Allow multiple operations to be performed without waiting.
+
+- does not block the execution flow and allows the progran to continue 
+
+I/O operation, network requests, fetching data 
+
+modified with: Callback, Promises, Async/wait
 
 
 

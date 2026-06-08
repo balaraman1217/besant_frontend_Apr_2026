@@ -763,22 +763,18 @@ kjadfhudshfdsfuo
 
 // console.log(total.toFixed(2));
 
-
 // product2.displayProduct();
 // product3.displayProduct();
 // product4.displayProduct();
 
-
 // class MathUtil{
 //      static PI = 3.14159;
-     
+
 //      static getDiameter(radius) {
 //         return radius * 2;
 //      }
 
 // }
-
-
 
 // console.log(MathUtil.PI);
 // console.log(MathUtil.getDiameter(10));
@@ -829,12 +825,11 @@ kjadfhudshfdsfuo
 
 // fish.swim();
 
-
 // class Animal {
-  
+
 //     constructor(name, age) {
-//        this.name = name;   
-//        this.age = age; 
+//        this.name = name;
+//        this.age = age;
 //     }
 
 //     move(speed) {
@@ -846,7 +841,7 @@ kjadfhudshfdsfuo
 // class Tiger extends Animal {
 //      constructor(name, age, runSpeed) {
 //         super(name, age);
-//        this.runSpeed = runSpeed;   
+//        this.runSpeed = runSpeed;
 //     }
 
 //     run() {
@@ -857,9 +852,9 @@ kjadfhudshfdsfuo
 
 // class Fish extends Animal {
 //     constructor(name, age, swimSpeed) {
-//          super(name, age); 
+//          super(name, age);
 //        this.swimSpeed = swimSpeed;
-        
+
 //     }
 
 //     swim() {
@@ -870,9 +865,9 @@ kjadfhudshfdsfuo
 
 // class Eagle extends Animal {
 //      constructor(name, age, flySpeed) {
-//          super(name, age); 
+//          super(name, age);
 //        this.flySpeed = flySpeed;
-        
+
 //     }
 //     fly() {
 //         console.log(`This ${this.name} can fly`);
@@ -880,7 +875,6 @@ kjadfhudshfdsfuo
 //     }
 
 // }
-
 
 // const tiger = new Tiger("tiger", 2, 30)
 // const fish = new Fish("fish", 3, 20)
@@ -892,7 +886,6 @@ kjadfhudshfdsfuo
 
 // tiger.run();
 // fish.swim();
-
 
 // class Rectangle {
 
@@ -933,11 +926,9 @@ kjadfhudshfdsfuo
 
 // const rectangle = new Rectangle();
 
-
 // console.log(rectangle.width);
 // console.log(rectangle.height);
 // console.log(rectangle.area);
-
 
 // class Person{
 //     constructor(firstName, lastName, age) {
@@ -945,7 +936,7 @@ kjadfhudshfdsfuo
 //         this.lastName = lastName;
 //         this.age = age;
 //     }
-    
+
 //     set firstName(newFirstName) {
 //         if(typeof newFirstName === "string" && newFirstName.length > 0) {
 //             this._firstName = newFirstName;
@@ -987,8 +978,6 @@ kjadfhudshfdsfuo
 
 // const person = new Person("ganesh", "kumar", 22);
 
-
-
 // console.log(person.firstName);
 // console.log(person.lastName);
 // console.log(person.fullName);
@@ -1020,15 +1009,13 @@ kjadfhudshfdsfuo
 // console.log(thirdColor);
 // console.log(extraColors);
 
-
 // extarct the values from object
-
 
 // const person1 = {
 //     firstName: "ganesh",
 //     lastName: "kumar",
 //     age: 20,
-   
+
 // }
 // const person2 = {
 //     firstName: "aslam",
@@ -1037,21 +1024,16 @@ kjadfhudshfdsfuo
 //     job: "Cook",
 // }
 
-
-
 // const { firstName, lastName, age, job="unemepleoyed" } = person1;
-
 
 // console.log(firstName);
 // console.log(job);
-
-
 
 // const person1 = {
 //     firstName: "ganesh",
 //     lastName: "kumar",
 //     age: 20,
-   
+
 // }
 // const person2 = {
 //     firstName: "aslam",
@@ -1062,18 +1044,10 @@ kjadfhudshfdsfuo
 
 // function displayPerson({firstName, lastName, age, job}) {
 //     console.log(firstName, );
-    
+
 // }
 
-
-
 // displayPerson(person1)
-
-
-
-
-
-
 
 // const person = {
 //     fullName: "Mohamed aslam",
@@ -1094,11 +1068,9 @@ kjadfhudshfdsfuo
 // console.log(person.address.city);
 // console.log(person.address.country);
 
-
 // for(const property in person.address) {
 //     console.log(person.address[property]);
 // }
-
 
 // class Person {
 
@@ -1117,34 +1089,24 @@ kjadfhudshfdsfuo
 //     }
 // }
 
-
-
-
-// const person1 = new Person("aslam", 20, "10 nehru st", 
+// const person1 = new Person("aslam", 20, "10 nehru st",
 //                                         "chennai",
 //                                         "india");
-// const person2 = new Person("mahamed", 22, "12 gandhi st", 
+// const person2 = new Person("mahamed", 22, "12 gandhi st",
 //                                         "chennai",
 //                                         "india");
-// const person3 = new Person("kishore", 21, "101 kamaraj st", 
+// const person3 = new Person("kishore", 21, "101 kamaraj st",
 //                                         "chennai",
 //                                         "india");
-
-
-
-
 
 // console.log(person1.address.street);
-                                        
 
 const fruits = [
-         {name: "orange", color: "yellow", calories: 95},
-         {name: "apple", color: "red", calories: 100},
-         {name: "coconut", color: "white", calories: 101},
-         {name: "pineapple", color: "yellow", calories: 120},
-
-]
-
+  { name: "orange", color: "yellow", calories: 95 },
+  { name: "apple", color: "red", calories: 100 },
+  { name: "coconut", color: "white", calories: 101 },
+  { name: "pineapple", color: "yellow", calories: 120 },
+];
 
 // fruits.forEach(fruit => console.log(fruit.calories));
 
@@ -1154,21 +1116,17 @@ const fruits = [
 
 // console.log(yellowFruits);
 
-
 // const maxFruit = fruits.reduce((max, fruit) => fruit.calories > max.calories ?  fruit : max);
 
 // console.log(maxFruit.calories);
-
 
 // fruits.push({name: "grapes", color: "purple", calories: 102})
 // fruits.splice(1, 2);
 // console.log(fruits);
 
-
 // function outer() {
 
 //     let message = 'hello';
-
 
 //     function inner() {
 //        console.log(message);
@@ -1182,17 +1140,17 @@ const fruits = [
 // outer();
 
 // function createCounter() {
-    
+
 // let count = 0;
 
 // function increment() {
-    
+
 //     count++;
 //     console.log(`Count increased to ${count} `);
 // }
 
-// //           
-//    return {increment};  
+// //
+//    return {increment};
 
 // }
 
@@ -1203,3 +1161,24 @@ const fruits = [
 // counter.increment();
 // counter.increment();
 // counter.increment();
+
+// setTimeout(() => window.alert("hello"), 4000);
+
+// function func1(callback) {
+//   setTimeout(() => {console.log("Task 1"); 
+//                     callback() }, 3000);
+// }
+
+// function func2() {
+// console.log("Task 2");
+// console.log("Task 3");
+// console.log("Task 4");
+// }
+
+// func1(func2);
+
+setTimeout(() => console.log("Task 1"), 5000);
+setTimeout(() => console.log("Task 2"), 3000);
+setTimeout(() => console.log("Task 3"), 1000);
+setTimeout(() => console.log("Task 4"), 2000);
+
